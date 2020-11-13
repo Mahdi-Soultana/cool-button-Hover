@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.p-box {
+    height: 90%;
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+    transition: ease-in 1s all;
+    cursor: pointer;
+}
+
+.c-box {
+    color: rgb(4, 238, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .8rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-box:hover {
+    z-index: 12;
+    transform: scale(1.1);
+    transition: ease-in .2s all;
+}
+
+.c-box--1 {
+    position: relative;
+    background: purple;
+    height: 25%;
+    z-index: 4;
+    filter: drop-shadow(0px 3px 5px black);
+}
+
+.c-box--2 {
+    position: relative;
+    background: red;
+    height: 25%;
+    z-index: 3;
+    filter: drop-shadow(0px 3px 5px black);
+}
+
+.c-box--3 {
+    position: relative;
+    background: green;
+    height: 25%;
+    z-index: 2;
+    filter: drop-shadow(0px 3px 5px black);
+}
+
+.c-box--4 {
+    position: relative;
+    background: yellow;
+    height: 25%;
+    z-index: 1;
+    filter: drop-shadow(0px 3px 5px black);
+}
